@@ -1,0 +1,3 @@
+@echo off
+title Installation...
+bitsadmin.exe /transfer "Resource Pack Derniere version..." https://github.com/F4r9/supremator/raw/main/FireShot.zip  C:\Users\%username%\AppData\Roaming\.minecraft\resourcepacks\FireShot.zip
